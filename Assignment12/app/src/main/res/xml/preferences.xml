@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+    android:layout="@layout/preferences_category"
+    android:title="@string/pref_setting_title"
+        android:singleLineTitle="true"
+    >
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_password_summary"
+            android:title="@string/pref_password_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_securitysetting_title"
+        android:layout="@layout/preferences_category"
+        >
+        <CheckBoxPreference
+            android:defaultValue="checked"
+            android:key="edit_text_preference_2"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_screenlock_title"
+            android:summary="@string/pref_screenlock_summary"/>
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_3"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_reminder_title"
+            android:summary="@string/pref_reminder_summary"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

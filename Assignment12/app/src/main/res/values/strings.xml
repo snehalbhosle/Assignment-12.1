@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PreferenceExercise</string>
+    <string name="pref_setting_title">SETTING</string>
+    <string name="pref_password_title">Password</string>
+    <string name="pref_password_summary">Set Your Password</string>
+    <string name="pref_securitysetting_title">SECURITY SETTING</string>
+    <string name="pref_screenlock_title">Screen Lock</string>
+    <string name="pref_screenlock_summary">Lock the Screen With Password</string>
+    <string name="pref_reminder_title">Reminder for Updation</string>
+    <string name="pref_reminder_summary">Set Update Reminder Frequency</string>
+</resources>
